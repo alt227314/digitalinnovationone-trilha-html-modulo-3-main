@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #000; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d91d1a; 
+}
+
+.bar {
+    background-color: #000; 
+    color: #fff; 
+    padding: 15px;
+    border-top: solid 1px #dcdcdc;
+    border-bottom: solid 1px #dcdcdc;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #dcdcdc;
+    background-color: #000;
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+.anchors {
+    border-left: solid 1px #dcdcdc;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #dcdcdc;
+}
+
+.main {
+    padding: 20px;
+    background-color: #fff; 
+    border: solid 1px #dcdcdc;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #000; 
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333; 
+}
+
+.sidebar ul, .anchors ul {
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.main, .sidebar, .anchors {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
